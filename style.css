@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+:root{
+  --cinza: #667085;
+  --vermelho: #8e2424;
+  --azul: #101828;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  line-height: 25px;
+}
+body{
+  width: 100%;
+  height: 100vh;
+  background-color: #fff;
+}
+
+.img-logo {
+  width: 25px;
+  position: relative;
+  left: 42px;
+}
+.cabecalho__menu {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  width: 100%;
+  padding: 2%;
+}
+.cabecalho__links {
+  display: flex;
+  gap: 30px;
+  padding-left: 7%;
+}
+.cabecalho__menu__titulo {
+  font-size: 1.125rem;
+  font-weight: 400;
+  text-decoration: none;
+  color: #3a404e;
+}
+.cabecalho__menu__link {
+  font-weight: 400;
+  font-size: 16px;
+  text-decoration: none;
+  color: #667085;
+}
+.cabecalho__botoes {
+  display: flex;
+  padding-left: 30%;
+  gap: 15px;
+  font-size: 16px;
+  font-weight: 400;
+}
+.cabecalho__botao__entrar {
+  text-decoration: none;
+  color: #667085;
+}
+.cabecalho__botao__cadastrar {
+  text-decoration: none;
+  background-color: #8e2424;
+  color: #ffffff;
+  border: 10px #8e2424 solid;
+  border-radius: 5px;
+  position: relative;
+  bottom: 20%;
+}
+.sections__container{
+  text-align: center;
+  padding-top: 5.6rem;
+}
+.sections__container span{
+  color: var(--vermelho);
+  font-weight: 600;
+  font-size: 1rem;
+  display: block;
+  padding-bottom: 3.5rem;
+}
+.sections__container h1{
+  color: var(--azul);
+  font-size: 3rem;
+  display: block;
+  padding-bottom: 3.5rem;
+}
+.sections__container p{
+  color: var(--cinza);
+  font-size: 1.25rem;
+  display: block;
+  padding-bottom: 3.5rem;
+  width: 49.5rem;
+  margin: 0 auto;
+  text-align: center;
+}
