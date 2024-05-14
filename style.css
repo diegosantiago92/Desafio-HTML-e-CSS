@@ -96,7 +96,8 @@ body{
 }
 .metricas__container{
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  align-items: center;
   gap: 50px;
   padding: 0 3rem 0;
   margin: 0 5rem 0;
@@ -118,4 +119,31 @@ body{
   color: var(--cinza);
   padding-bottom: 1rem;
   font-weight: 400;
+}
+.vagas__container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.vagas__container span{
+  padding: 0.3% 2% 0.3%;
+  margin-top: 50px;
+  margin-bottom: 40px;
+  background-color: rgb(249,244,244);
+  border-radius: 25px;
+  font-size: 0.875rem;
+  color: var(--vermelho);
+  font-weight: 500;
+}
+.vagas__container h1{
+  font-size: 2.25rem;
+  font-weight: 600;
+  color: var(--azul);
+  margin-bottom: 50px;
+}
+.vagas__container p{
+  font-size: 1.25rem;
+  color: var(--cinza);
+  margin-bottom: 60px;
+
 }
