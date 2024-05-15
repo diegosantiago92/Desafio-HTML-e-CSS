@@ -145,5 +145,36 @@ body{
   font-size: 1.25rem;
   color: var(--cinza);
   margin-bottom: 60px;
-
+}
+.vagas__descricao__area{
+  padding: 2% 25% 2%;
+  display: flex;
+  color: var(--azul);
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+.vagas{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 1% auto;
+  border: 1px #EAECF0 solid;
+  border-radius: 15px;
+  padding: 1% 5% 1%;
+}
+.vagas__titulo{
+  color: var(--azul);
+  font-size: 1.125rem;
+  font-weight: 500;
+  padding-bottom: 5%;
+}
+.vagas__conteudo{
+  color: var(--cinza);
+  font-size: 1rem;
+}
+.vagas__conteudo__time{
+  margin-right: 30px;
+}
+.vagas__conteudo__salario{
+  margin-left: 30px;
 }
