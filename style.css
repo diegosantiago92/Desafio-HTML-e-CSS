@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
 
-:root{
+:root {
   --cinza: #667085;
   --vermelho: #8e2424;
   --azul: #101828;
@@ -13,7 +13,7 @@
   font-size: 1rem;
   line-height: 25px;
 }
-body{
+body {
   width: 100%;
   height: 100vh;
   background-color: #fff;
@@ -68,24 +68,24 @@ body{
   position: relative;
   bottom: 20%;
 }
-.sections__container{
+.sections__container {
   text-align: center;
   padding-top: 5.6rem;
 }
-.sections__container span{
+.sections__container span {
   color: var(--vermelho);
   font-weight: 600;
   font-size: 1rem;
   display: block;
   padding-bottom: 3.5rem;
 }
-.sections__container h1{
+.sections__container h1 {
   color: var(--azul);
   font-size: 3rem;
   display: block;
   padding-bottom: 3.5rem;
 }
-.sections__container p{
+.sections__container p {
   color: var(--cinza);
   font-size: 1.25rem;
   display: block;
@@ -94,7 +94,7 @@ body{
   margin: 0 auto;
   text-align: center;
 }
-.metricas__container{
+.metricas__container {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -102,79 +102,156 @@ body{
   padding: 0 3rem 0;
   margin: 0 5rem 0;
 }
-.metricas__container h1{
+.metricas__container h1 {
   font-size: 3.75rem;
   color: var(--vermelho);
   padding-bottom: 2rem;
   font-weight: 600;
 }
-.metricas__container h2{
+.metricas__container h2 {
   font-size: 1.125rem;
   color: var(--azul);
   padding-bottom: 1rem;
   font-weight: 500;
 }
-.metricas__container p{
+.metricas__container p {
   font-size: 1rem;
   color: var(--cinza);
   padding-bottom: 1rem;
   font-weight: 400;
 }
-.vagas__container{
+.vagas__container {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.vagas__container span{
+.vagas__container span {
   padding: 0.3% 2% 0.3%;
   margin-top: 50px;
   margin-bottom: 40px;
-  background-color: rgb(249,244,244);
+  background-color: rgb(249, 244, 244);
   border-radius: 25px;
   font-size: 0.875rem;
   color: var(--vermelho);
   font-weight: 500;
 }
-.vagas__container h1{
+.vagas__container h1 {
   font-size: 2.25rem;
   font-weight: 600;
   color: var(--azul);
   margin-bottom: 50px;
 }
-.vagas__container p{
+.vagas__container p {
   font-size: 1.25rem;
   color: var(--cinza);
   margin-bottom: 60px;
 }
-.vagas__descricao__area{
+.vagas__descricao__area {
   padding: 2% 25% 2%;
   display: flex;
   color: var(--azul);
   font-size: 1.25rem;
   font-weight: 500;
 }
-.vagas{
+.vagas {
   display: flex;
   flex-direction: column;
   width: 50%;
   margin: 1% auto;
-  border: 1px #EAECF0 solid;
+  border: 1px #eaecf0 solid;
   border-radius: 15px;
   padding: 1% 5% 1%;
 }
-.vagas__titulo{
+.vagas__titulo {
   color: var(--azul);
   font-size: 1.125rem;
   font-weight: 500;
   padding-bottom: 5%;
 }
-.vagas__conteudo{
+.vagas__conteudo {
   color: var(--cinza);
   font-size: 1rem;
 }
-.vagas__conteudo__time{
+.vagas__conteudo__time {
   margin-right: 30px;
 }
-.vagas__conteudo__salario{
+.vagas__conteudo__salario {
   margin-left: 30px;
+}
+.secao__depoimentos {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 90%;
+  background-color: rgb(249, 244, 244);
+  border-radius: 15px;
+  text-align: center;
+}
+.secao__depoimentos span {
+  padding: 2%;
+  color: var(--vermelho);
+  font-size: 0.875rem;
+  font-weight: 600;
+}
+.secao__depoimentos h1 {
+  color: var(--azul);
+  font-size: 2.25rem;
+  font-weight: 400;
+  width: 80%;
+  margin: 0 auto;
+  line-height: 40px;
+  padding-bottom: 2%;
+}
+.secao__depoimentos img {
+  width: 5%;
+  margin: 0 auto;
+}
+.secao__depoimentos h2 {
+  color: var(--azul);
+  font-size: 1rem;
+  padding: 0.0025rem;
+  font-weight: 600;
+}
+.secao__depoimentos p {
+  color: var(--cinza);
+  font-size: 0.875;
+  padding-bottom: 3%;
+}
+.secao__rodape {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 3%;
+  background-color: #f9fafb;
+  margin-top: 3%;
+}
+.secao__rodape__texto h1 {
+  font-size: 2.25rem;
+  color: var(--azul);
+  font-weight: 600;
+}
+.secao__rodape__texto p {
+  font-size: 1.25rem;
+  color: var(--cinza);
+  font-weight: 400;
+  padding: 2%;
+}
+.secao__rodape input {
+  width: 25%;
+  padding: 0.25%;
+  background-color: #fff;
+}
+.secao__rodape button {
+  padding: 0.8rem 1rem;
+  cursor: pointer;
+  background-color: var(--vermelho);
+  color: #fff;
+  border-radius: 0.5rem;
+  border: none;
+  font-size: 0.9rem;
+}
+.secao__rodape span {
+  color: var(--cinza);
+  font-weight: 200;
+  padding: 1%;
 }
