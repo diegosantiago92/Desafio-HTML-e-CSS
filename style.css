@@ -10,7 +10,6 @@
   padding: 0;
   font-family: "Inter", sans-serif;
   box-sizing: border-box;
-  -webkit-tap-highlight-color: transparent;
 }
 
 body {
@@ -299,6 +298,11 @@ button {
     display: flex;
     flex-direction: column;
     width: 100%;
+  }
+  .menu__botoes:focus{
+    outline: none !important;
+    border: none;
+    box-shadow: none;
   }
   .sobre__nos h1 {
     font-size: 2rem;
