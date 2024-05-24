@@ -5,7 +5,7 @@
   --vermelho: #8e2424;
   --azul: #101828;
 }
-* {  
+* {
   margin: 0;
   padding: 0;
   font-family: "Inter", sans-serif;
@@ -18,14 +18,14 @@ body {
   background-color: #fff;
 }
 /*CONFIGURAÇÕES DO MENU*/
-nav{
+nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 2rem;
 }
 
-.menu{
+.menu {
   display: flex;
   align-items: center;
 }
@@ -36,16 +36,16 @@ nav{
   color: #3a404e;
   margin-right: 1rem;
 }
-.menuMobile{
+.menuMobile {
   display: none;
   visibility: hidden;
 }
-.menu.active{
+.menu.active {
   right: 0;
   box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
   transition: all 0.5s;
 }
-.menuMobile img{
+.menuMobile img {
   position: relative;
   z-index: 1;
   width: 24px;
@@ -54,7 +54,7 @@ nav{
 }
 
 /*AJUSTES DOS BOTÕES DO MENU*/
-button{
+button {
   font-size: 1rem;
   text-decoration: none;
   color: #667085;
@@ -63,7 +63,6 @@ button{
   border-radius: 0.725rem;
   background: none;
 }
-
 .botao__cadastrar {
   background-color: var(--vermelho);
   color: #ffffff;
@@ -151,7 +150,7 @@ button{
   color: var(--cinza);
   margin-bottom: 60px;
 }
-.vagas img{
+.vagas img {
   width: 100%;
 }
 .vagas__area {
@@ -266,24 +265,22 @@ button{
   padding: 1%;
 }
 /*Responsividade da página*/
-@media screen and (max-width: 920px){
-  .metricas{
+@media screen and (max-width: 920px) {
+  .metricas {
     padding: 0 4rem;
   }
 }
-@media screen and (max-width: 850px){
-  .menuMobile{
+@media screen and (max-width: 850px) {
+  .menuMobile {
     display: initial;
     visibility: visible;
   }
-  .menu__links{
+  .menu__links {
     margin: 2rem 0;
-      
   }
-  .menu__links a{
+  .menu__links a {
     margin-right: 0;
     padding: 5%;
-      
   }
   .menu {
     flex-direction: column;
@@ -291,90 +288,95 @@ button{
     top: 0;
     right: -1000px;
     height: 100vh;
-    background: #F9FAFB;
+    background: #f9fafb;
     width: 15rem;
     padding: 2rem;
     transition: all 2s;
   }
-  .menu .menu__links, .menu .menu__botoes{
+  .menu .menu__links,
+  .menu .menu__botoes {
     display: flex;
     flex-direction: column;
     width: 100%;
   }
-  .sobre__nos h1{
+  .botao__entrar:hover{
+    background: transparent;
+  }
+  .sobre__nos h1 {
     font-size: 2rem;
   }
-  .sobre__nos p{
+  .sobre__nos p {
     max-width: 80%;
     text-align: left;
   }
-  .metricas{
+  .metricas {
     display: flex;
     flex-direction: column;
     align-items: center;
-    }
-  .metrica{
+  }
+  .metrica {
     align-items: center;
     justify-content: center;
     margin-bottom: 1rem;
   }
-  .metrica span{
+  .metrica span {
     max-width: 280px;
     text-align: center;
     align-items: left;
   }
-  .vaga{
+  .vaga {
     width: 90%;
     display: block;
     flex-direction: column;
-    justify-content: center ;
+    justify-content: center;
   }
-  .vagas__area{
+  .vagas__area {
     display: flex;
     max-width: 100%;
     font-size: 0.905rem;
     padding: 1rem;
   }
-  .vaga__titulo{
+  .vaga__titulo {
     font-size: 0.905rem;
   }
-  .vaga__conteudo{
+  .vaga__conteudo {
     font-size: 0.905rem;
     display: flex;
     flex-direction: column;
     gap: 1rem;
     padding-top: 0.725rem;
   }
-  .vagas h1, .vagas p{
+  .vagas h1,
+  .vagas p {
     max-width: 90%;
     align-items: center;
     text-align: center;
   }
-  .depoimentos{
+  .depoimentos {
     margin-top: 4%;
     gap: 0.925rem;
   }
-  .depoimentos h1{
+  .depoimentos h1 {
     font-size: 1rem;
     text-align: left;
   }
-  .depoimentos h2{
+  .depoimentos h2 {
     max-width: 100%;
     font-size: 120%;
   }
-  .depoimentos img{
+  .depoimentos img {
     width: auto;
   }
-  .rodape__texto h1{
+  .rodape__texto h1 {
     font-size: 1.125rem;
   }
-  .rodape__texto p{
+  .rodape__texto p {
     font-size: 0.925rem;
   }
-  .rodape input{
+  .rodape input {
     margin: 1rem;
   }
-  .rodape__botao{
+  .rodape__botao {
     margin-bottom: 1rem;
   }
 }
