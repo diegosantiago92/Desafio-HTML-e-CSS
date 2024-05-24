@@ -10,6 +10,7 @@
   padding: 0;
   font-family: "Inter", sans-serif;
   box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
 }
 
 body {
@@ -298,9 +299,6 @@ button {
     display: flex;
     flex-direction: column;
     width: 100%;
-  }
-  .botao__entrar:hover{
-    background: transparent;
   }
   .sobre__nos h1 {
     font-size: 2rem;
