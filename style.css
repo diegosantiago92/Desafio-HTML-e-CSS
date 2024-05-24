@@ -68,6 +68,7 @@ button{
   background-color: var(--vermelho);
   color: #ffffff;
 }
+/*Seção Sobre Nós*/
 .sobre__nos {
   text-align: center;
   padding: 1rem;
@@ -96,11 +97,13 @@ button{
   margin: 0 auto;
   text-align: center;
 }
+/*Seção das métricas*/
 .metricas {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   column-gap: 2rem;
   padding: 0 8rem;
+  text-align: center;
 }
 .metricas h1 {
   font-size: 3.75rem;
@@ -120,6 +123,7 @@ button{
   padding-bottom: 0.725rem;
   font-weight: 400;
 }
+/*Seção das vagas*/
 .vagas {
   display: flex;
   flex-direction: column;
@@ -178,6 +182,7 @@ button{
   gap: 2rem;
   display: flex;
 }
+/*Seção dos depoimentos dos colaboradores*/
 
 .depoimentos {
   display: flex;
@@ -217,6 +222,7 @@ button{
   font-size: 0.875;
   padding-bottom: 3%;
 }
+/*Seção do rodapé da página*/
 .rodape {
   display: flex;
   flex-direction: column;
